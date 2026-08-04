@@ -1,0 +1,111 @@
+// ============================================================
+// SimpleMall 设计系统 - Apple 风格
+// 参考：Apple 官网极简高级感
+// ============================================================
+
+// 字体 - 现代、清晰
+$font-display: 'Inter', 'SF Pro Display', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+$font-body: 'Inter', 'SF Pro Text', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+// Apple 色彩系统
+$color-apple-white: #ffffff;
+$color-apple-black: #000000;
+$color-apple-gray: #f5f5f7;
+$color-apple-gray-light: #fafafa;
+$color-apple-text: #1d1d1f;
+$color-apple-text-secondary: #86868b;
+$color-apple-text-tertiary: #d2d2d7;
+$color-apple-border: rgba(0, 0, 0, 0.08);
+$color-apple-border-light: rgba(0, 0, 0, 0.04);
+$color-apple-blue: #0071e3;
+$color-apple-blue-light: #0077ed;
+$color-apple-blue-soft: rgba(0, 113, 227, 0.08);
+
+// 兼容旧 slate 变量名（避免页面样式大面积报错）
+$color-slate-50: #f5f5f7;
+$color-slate-100: #f5f5f7;
+$color-slate-200: rgba(0, 0, 0, 0.08);
+$color-slate-300: #d2d2d7;
+$color-slate-400: #86868b;
+$color-slate-500: #86868b;
+$color-slate-600: #6e6e73;
+$color-slate-700: #424245;
+$color-slate-800: #1d1d1f;
+$color-slate-900: #000000;
+
+// 强调色 - Apple 蓝
+$color-primary: $color-apple-blue;
+$color-primary-light: $color-apple-blue-light;
+$color-primary-dark: #005bb5;
+$color-primary-soft: $color-apple-blue-soft;
+
+// 功能色
+$color-success: #34c759;
+$color-warning: #ff9500;
+$color-danger: #ff3b30;
+$color-info: #5e5ce6;
+
+// 价格色（中国市场：红色代表正价/突出）
+$color-price: #1d1d1f;
+
+// 背景与表面
+$bg-body: $color-apple-white;
+$bg-surface: $color-apple-white;
+$bg-elevated: $color-apple-white;
+$bg-soft: $color-apple-gray;
+
+// 文字
+$text-primary: $color-apple-text;
+$text-secondary: $color-apple-text-secondary;
+$text-tertiary: $color-apple-text-tertiary;
+$text-inverse: #ffffff;
+
+// 边框
+$border-color: $color-apple-border;
+$border-light: $color-apple-border-light;
+$border-focus: rgba(0, 113, 227, 0.4);
+
+// 阴影 - 更克制、更高级
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+$shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.1);
+$shadow-hover: 0 24px 56px rgba(0, 0, 0, 0.12);
+
+// 圆角 - Apple 大圆角
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 18px;
+$radius-xl: 28px;
+$radius-full: 9999px;
+
+// 间距
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-8: 32px;
+$space-10: 40px;
+$space-12: 48px;
+$space-16: 64px;
+$space-20: 80px;
+
+// 过渡 - Apple 风格缓动
+$transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow: 450ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+// 容器
+$container-max-width: 1200px;
+$container-padding: 24px;
+
+// 兼容旧变量名
+$primary-color: $color-primary;
+$success-color: $color-success;
+$warning-color: $color-warning;
+$danger-color: $color-danger;
+$info-color: $color-info;
+$bg-color: $bg-body;

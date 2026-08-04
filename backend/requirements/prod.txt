@@ -1,0 +1,10 @@
+-r base.txt
+
+# 生产 WSGI 服务器
+gunicorn>=21.2
+
+# 静态文件服务
+whitenoise>=6.6
+
+# 数据库连接池（MySQL）
+django-db-connection-pool>=1.2
